@@ -4,10 +4,10 @@ window.onload = function () {
     winsow.onscroll = function() { myFunction(navbar, sticky) };
 }
 
-function myFunction(navbar, stickys){
+function myFunction(navbar, sticky){
     if(window.pageYOffset >= sticky){
         navbar.classList.add('sticky');
     } else{
-        navbar.class.remove('sticky');
+        navbar.classList.remove('sticky');
     }
 }
